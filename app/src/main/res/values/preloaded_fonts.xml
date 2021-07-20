@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/arima_madurai</item>
+        <item>@font/asap</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/cabin_sketch</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/im_fell_english</item>
+    </array>
+</resources>

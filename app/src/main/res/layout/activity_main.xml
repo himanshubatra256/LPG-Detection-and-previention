@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/happy_monkey"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Gas Leakage Detection System"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/selector"
+        android:shadowColor="@android:color/black"
+        android:text="Create New Account"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/selector1"
+        android:text="LOG IN"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+</RelativeLayout>
